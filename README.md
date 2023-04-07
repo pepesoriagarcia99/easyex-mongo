@@ -1,1 +1,1 @@
-# Express-core-mongo
+# HermesJS - Mongo plugin
