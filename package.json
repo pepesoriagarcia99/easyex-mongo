@@ -1,17 +1,24 @@
 {
-  "name": "@hermes/mongo",
+  "name": "@easyex/mongo",
   "version": "0.1.0",
-  "description": "Plugin for mongo databases integrated with the Hermes project.",
+  "description": "Plugin for mongo databases integrated with the Easyex project.",
   "files": [
-    "source/"
+    "source/",
+    "dist/"
   ],
   "main": "index.js",
+  "source": "source/index.js",
   "scripts": {
     "build": "babel source --out-dir dist",
     "lint": "eslint src",
-    "npm:publish": "babel source --out-dir dist && npm publish",
-    "npm:link": "babel source --out-dir dist && npm link @hermes/mongo"
+    "npm:publish": "babel source --out-dir dist && npm publish --access public",
+    "npm:link": "babel source --out-dir dist && npm link @easyex/mongo"
   },
+  "keywords": [
+    "express",
+    "backend",
+    "easyex"
+  ],
   "author": "Jose Eduardo Soria Garcia <pepesoriagarcia99@gmail.com>",
   "license": "ISC",
   "devDependencies": {

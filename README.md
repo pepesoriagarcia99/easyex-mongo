@@ -1,1 +1,1 @@
-# HermesJS - Mongo plugin
+# Easyex - Mongo plugin
